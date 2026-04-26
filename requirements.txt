@@ -1,10 +1,12 @@
 fastapi
 uvicorn
-langchain
-langchain-community
+langchain==0.1.20
+langchain-community==0.0.38
 langchain-groq
 chromadb
 sentence-transformers
 pandas
 requests
 python-dotenv
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
